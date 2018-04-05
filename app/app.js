@@ -1,5 +1,5 @@
 // import 'babel-polyfill'
-// import '@babel/polyfill'
+import '@babel/polyfill'
 
 import 'indexeddbshim'
 window.shimIndexedDB.__useShim()

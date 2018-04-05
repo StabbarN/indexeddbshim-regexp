@@ -3,7 +3,7 @@ var path = require( 'path' ) // eslint-disable-line no-undef
 const config = {
   entry: [
     // 'babel-polyfill',
-    '@babel/polyfill',
+    // '@babel/polyfill',
     './app/app.js'
   ],
   output: {
@@ -23,7 +23,7 @@ const config = {
           babelrc: false,
           presets: [
             ['@babel/preset-env', {
-              useBuiltIns: false,
+              useBuiltIns: 'entry',
               targets: {
                 browsers: [
                   'iOS >= 9',
