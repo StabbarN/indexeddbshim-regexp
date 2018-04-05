@@ -1,5 +1,6 @@
 // import 'babel-polyfill'
 import '@babel/polyfill'
+import 'core-js/fn/regexp/constructor'
 
 import 'indexeddbshim'
 window.shimIndexedDB.__useShim()
